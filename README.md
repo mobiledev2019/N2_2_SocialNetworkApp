@@ -14,17 +14,17 @@ Nhóm: 01
 
 1. Thiết kế giao diện các chức năng chính của ứng dụng  
 
-![Login](https://github.com/mobiledev2019/mp-n2_2_-socialnetworkapp/tree/master/photo/login.png)  
+![Login](mp-n2_2_-socialnetworkapp/photo/login.png)  
 
-![Register](https://github.com/mobiledev2019/mp-n2_2_-socialnetworkapp/tree/master/photo/register.png)  
+![Register](mp-n2_2_-socialnetworkapp/photo/register.png)  
 
-![Home](https://github.com/mobiledev2019/mp-n2_2_-socialnetworkapp/tree/master/photo/home.png)  
+![Home](mp-n2_2_-socialnetworkapp/photo/home.png)  
 
-![Search](https://github.com/mobiledev2019/mp-n2_2_-socialnetworkapp/tree/master/photo/search.png)  
+![Search](mp-n2_2_-socialnetworkapp/photo/search.png)  
 
-![Profile](https://github.com/mobiledev2019/mp-n2_2_-socialnetworkapp/tree/master/photo/profile.png)  
+![Profile](mp-n2_2_-socialnetworkapp/photo/profile.png)  
 
-![Share](https://github.com/mobiledev2019/mp-n2_2_-socialnetworkapp/tree/master/photo/share.png)  
+![Share](mp-n2_2_-socialnetworkapp/photo/share.png)  
        
 
 2. Draft mô tả ứng dụng

@@ -5,9 +5,9 @@ Nhóm: 01
 
 ## Thành viên:
 
-1. Họvàtên: Trần Anh Đạt        Mã sinhviên: B15DCAT038
-2. Họvàtên: Lê Vương Thiên        Mã sinhviên: B15DCAT158
-3. Họvàtên: Vũ Văn Bắc        Mã sinhviên: B15DCAT018
+1. Họ và tên: Trần Anh Đạt - Mã sinh viên: B15DCAT038
+2. Họ và tên: Lê Vương Thiên - Mã sinh viên: B15DCAT158
+3. Họ và tên: Vũ Văn Bắc - Mã sinh viên: B15DCAT018
 
 
 ## Nội dung

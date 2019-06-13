@@ -1,92 +1,49 @@
-<img src="https://github.com/lvtad/asannet/blob/master/screenshots/Design.png">
+# BÁO CÁO BÀI TẬP LỚN MÔN PHÁT TRIỂN ỨNG DỤNG DI ĐỘNG HỌC KỲ II NĂM HỌC 2018 - 2019
 
-## If you like this project please consider donating
-By donating you help me to improve this project to next level and also buy me some coffee :)
+Nhóm: 01
 
-[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=UF2TDFHZAHELS&source=url
-)
+## Thành viên:
 
-<br>
+1. Họ và tên: Trần Anh Đạt - Mã sinh viên: B15DCAT038
+2. Họ và tên: Lê Vương Thiên - Mã sinh viên: B15DCAT158
+3. Họ và tên: Vũ Văn Bắc - Mã sinh viên: B15DCAT018
 
-[![asannet](https://forthebadge.com/images/badges/built-by-developers.svg)](https://lvtad.github.io/lvstore/asannet.html)
-[![asannet](https://forthebadge.com/images/badges/built-with-love.svg)](https://lvtad.github.io/lvstore/asannet.html)
-[![asannet](https://forthebadge.com/images/badges/built-for-android.svg)](https://lvtad.github.io/lvstore/asannet.html)
 
-<br>
+## Nội dung
 
-Just a social app. This app is mostly completed but some bugs would be there so till i fix them this app will be in **beta** .
-**google-services.json file has been deleted for security reasons. Place your google-services.json in /app folder**
+1. Thiết kế giao diện các chức năng chính của ứng dụng  
 
-### Download the latest build by clicking [here](https://lvtad.github.io/lvstore/asannet.html)
+![Login](https://raw.githubusercontent.com/mobiledev2019/mp-n2_2_-socialnetworkapp/master/photo/home.png)  
 
-## Available feautres
+![Register](https://raw.githubusercontent.com/mobiledev2019/mp-n2_2_-socialnetworkapp/master/photo/register.png)  
 
-* Registration
-  - Registration and logging in using firebase **(stable)**
-* Flash Messages
-  - Instant messaging using notifications using firebase functions **(stable)**
-* Make new friends
-  - Friend request and accepted notifications **(stable)**
-  - Manage friends **(stable)**
-* Profile
-  - Manage your profile either online or offline **(stable)**
-* Messages
-  - Send only text **(stable)**
-  - Send image and text **(stable)**
-  - Send location **(stable)**
-* Posts Feed
-  - View posts of your friends **(stable)**
-  - Like,Share,Comment **(stable)**
-* Mischellaneous
-  - Double tap like feature added **(stable)**
-  - Error handling Recycler View **(stable)**
-* Discuss
-  - Homework helper for students with inbuilt AI (Wolfram|Alpha) **(stable)**
-  - Forum **(stable)**
-  
-## Cloud Functions Code
+![Home](https://raw.githubusercontent.com/mobiledev2019/mp-n2_2_-socialnetworkapp/master/photo/home.png)  
 
-Check out the cloud_functions folder for the code
+![Search](https://raw.githubusercontent.com/mobiledev2019/mp-n2_2_-socialnetworkapp/master/photo/search.png)  
 
-## Tutorial 
-Part - 1 : [Setting up Firebase CLI](https://youtu.be/-T-yGL1qRho)<br>
-Part - 2 : [Deploying to Firebase Cloud Functions](https://youtu.be/3fBiSJB-i_E)
+![Profile](https://raw.githubusercontent.com/mobiledev2019/mp-n2_2_-socialnetworkapp/master/photo/profile.png)  
 
-## Screenshots
+![Share](https://raw.githubusercontent.com/mobiledev2019/mp-n2_2_-socialnetworkapp/master/photo/share.png)  
+       
 
-<table>
-  <tr>
-    <td> <img src="https://github.com/lvtad/asannet/blob/master/screenshots/1.jpg" height="400"> </td>
-    <td> <img src="https://github.com/lvtad/asannet/blob/master/screenshots/2.jpg" height="400"> </td>
-  </tr>
-  
-  <tr>
-        <td> <img src="https://github.com/lvtad/asannet/blob/master/screenshots/3.jpg" height="400"> </td>
-<td> <img src="https://github.com/lvtad/asannet/blob/master/screenshots/4.jpg" height="400"> </td>
-  </tr>
-  
-   <tr>
-         <td> <img src="https://github.com/lvtad/asannet/blob/master/screenshots/5.jpg" height="400"> </td>
- <td> <img src="https://github.com/lvtad/asannet/blob/master/screenshots/6.jpg" height="400"> </td>
-    </tr>
-    
-   <tr>
-         <td> <img src="https://github.com/lvtad/asannet/blob/master/screenshots/7.jpg" height="400"> </td>
-<td> <img src="https://github.com/lvtad/asannet/blob/master/screenshots/8.jpg" height="400"> </td>
-   </tr>
-  
-  <tr>
-   <td> <img src="https://github.com/lvtad/asannet/blob/master/screenshots/9.jpg" height="400"> </td>
-   </tr>
-</table>
+2. Draft mô tả ứng dụng
+  1. Mô tả sơ lược về ứng dụng
 
-## Developer
+- Mục tiêu
 
-This whole project is maintained only by **tad Lv (me)**.
+Tạo ra một hệ thống trên nền Internet cho phép người dùng giao lưu và chia sẻ ảnh một cách có hiệu quả, vượt ra ngoài những giới hạn về địa lý và thời gian.
 
-If you like to contribute, please let me know
-<B>Email : tad.a@gmail.com</B>
+Xây dựng lên một mẫu đinh danh trực tuyến nhằm phục vụ những yêu cầu công cộng chung và những giá trị của công đồng.
 
-## Credits
+- Phạm vi
 
-Logo designed by Live Mail Team from Uplabs.com
+Phạm vi trong ứng dụng là ở Việt Nam
+
+- Cách thức sử dụng
+
+Người dùng sẽ tải ứng dụng trên Google Play. Thực hiện quá trình đăng ký tài khoản và đăng nhập để chia sẻ ảnh và thực hiện một số thao tác như like, comment, follow bạn bè.
+
+- Ứng dụng
+
+Ứng dụng mạng xã hội là một dịch vụ nối kết các thành viên cùng sở thích trên Internet lại với nhau với nhiều mục đích khác nhau không phân biệt không gian và thời gian.
+

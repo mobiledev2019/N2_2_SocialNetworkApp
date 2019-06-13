@@ -1,42 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-<!-- CoordinatorLayout de dich chuyen vi tri cua cac view chua ben trong no  -->
-<android.support.design.widget.CoordinatorLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Home.MainActivity">
+    android:background="#FFF"
+    android:orientation="vertical">
 
-    <RelativeLayout
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_alignParentTop="true"
+        android:id="@+id/top"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content"
+        >
 
-        <!-- top toolbar -->
-        <RelativeLayout
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            app:title="Bảng tin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/relLayout1">
+            android:background="#FFF"
+            />
 
-            <include layout="@layout/layout_top_tabs"/>
+    </com.google.android.material.appbar.AppBarLayout>
 
-        </RelativeLayout>
+    <FrameLayout
+        android:layout_below="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
 
-        <!-- Middle section (body) -->
-        <RelativeLayout
+        <FrameLayout
+            android:id="@+id/container"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:id="@+id/relLayout2"
-            android:layout_below="@+id/relLayout1">
+            />
 
-            <include layout="@layout/layout_center_viewpager"/>
+        <FrameLayout
+            android:visibility="gone"
+            android:background="#FFF"
+            android:id="@+id/search_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
 
-        </RelativeLayout>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recentsView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
 
-        <!-- bottom navigation -->
-        <include layout="@layout/layout_bottom_navigation_view"/>
+        </FrameLayout>
 
-    </RelativeLayout>
+    </FrameLayout>
 
-</android.support.design.widget.CoordinatorLayout>
+
+</RelativeLayout>

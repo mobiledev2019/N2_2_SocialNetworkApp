@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/main_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryy"
+    tools:context=".ui.activities.notification.NotificationImage">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/main_toolbar"
+            app:title="Message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFF"
+            />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+        android:layout_above="@id/message_layoutt"
+        android:layout_below="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/progressBar"
+                android:orientation="horizontal"
+                >
+
+
+               <LinearLayout
+                   android:orientation="vertical"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content">
+
+                   <FrameLayout
+                       android:layout_marginTop="5dp"
+                       android:gravity="center_vertical"
+                       android:orientation="vertical"
+                       android:layout_width="match_parent"
+                       android:layout_height="270dp">
+
+                       <ImageView
+                           android:layout_gravity="bottom"
+                           android:background="#212121"
+                           android:id="@+id/messageImage"
+                           android:layout_width="match_parent"
+                           android:layout_height="250dp"
+                           android:onClick="onPreviewImage"
+                           android:scaleType="centerCrop"
+                           android:textColor="#fff" />
+
+                      <LinearLayout
+                          android:gravity="center_vertical"
+                          android:orientation="horizontal"
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content">
+
+                          <de.hdodenhof.circleimageview.CircleImageView
+                              android:id="@+id/circleImageView"
+                              android:layout_width="48dp"
+                              android:layout_marginStart="10dp"
+                              android:layout_height="48dp"
+                              android:src="@drawable/default_user_art_g_2"
+                              app:civ_border_color="@color/colorPrimaryy"
+                              app:civ_border_width="0dp" />
+
+                          <TextView
+                              android:id="@+id/name"
+                              android:padding="5dp"
+                              android:layout_marginStart="5dp"
+                              android:layout_marginTop="5dp"
+                              android:background="@drawable/textview_tab_style_white"
+                              android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:text="username"
+                              android:layout_marginBottom="5dp"
+                              android:textColor="#FF000000"
+                              />
+
+                      </LinearLayout>
+
+                   </FrameLayout>
+
+                   <TextView
+                       android:id="@+id/messagetxt"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:background="@drawable/textview_tab_style_black"
+                       android:padding="10dp"
+                       android:layout_marginTop="5dp"
+                       android:layout_marginStart="10dp"
+                       android:text="Message"
+                       android:textSize="17sp"
+                       android:textColor="#fff" />
+
+               </LinearLayout>
+
+            </LinearLayout>
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:indeterminate="true"
+                android:visibility="gone"/>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/message_layoutt"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/message_layout"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/message"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/input_backgtound_grey"
+                android:hint="Nhập tin nhắn"
+                android:layout_toStartOf="@+id/currentProfile"
+                android:inputType="textCapSentences"
+                android:padding="15dp" />
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/currentProfile"
+                android:layout_width="48dp"
+                android:layout_marginStart="10dp"
+                android:layout_alignParentEnd="true"
+                android:layout_height="48dp"
+                android:src="@drawable/default_user_art_g_2"
+                />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:padding="5dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/send"
+                android:layout_below="@id/message_layout"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_margin="5dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/input_backgtound"
+                android:text="Reply"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/sendNew"
+                android:layout_below="@id/send"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/input_light_white"
+                android:onClick="SendNew"
+                android:text="Send new asannet"
+                android:textAllCaps="false"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

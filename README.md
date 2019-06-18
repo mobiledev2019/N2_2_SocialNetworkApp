@@ -13,17 +13,23 @@ Nhóm: 01
 
 1. Thiết kế giao diện các chức năng chính của ứng dụng  
 
-![Login](https://raw.githubusercontent.com/mobiledev2019/mp-n2_2_-socialnetworkapp/master/photo/home.png)  
+![Login](https://raw.githubusercontent.com/mobiledev2019/mp-n2_2_-socialnetworkapp/master/photo/login.png)  
 
-![Register](https://raw.githubusercontent.com/mobiledev2019/mp-n2_2_-socialnetworkapp/master/photo/register.png)  
+![Dangky](https://raw.githubusercontent.com/mobiledev2019/mp-n2_2_-socialnetworkapp/master/photo/dangky.png)  
 
-![Home](https://raw.githubusercontent.com/mobiledev2019/mp-n2_2_-socialnetworkapp/master/photo/home.png)  
+![Trangchu](https://raw.githubusercontent.com/mobiledev2019/mp-n2_2_-socialnetworkapp/master/photo/trangchu.png)  
 
-![Search](https://raw.githubusercontent.com/mobiledev2019/mp-n2_2_-socialnetworkapp/master/photo/search.png)  
+![Binhluan](https://raw.githubusercontent.com/mobiledev2019/mp-n2_2_-socialnetworkapp/master/photo/binhluan.png)  
+
+![Menu](https://raw.githubusercontent.com/mobiledev2019/mp-n2_2_-socialnetworkapp/master/photo/menu.png)  
+
+![Dangbai](https://raw.githubusercontent.com/mobiledev2019/mp-n2_2_-socialnetworkapp/master/photo/dangbai.png)  
 
 ![Profile](https://raw.githubusercontent.com/mobiledev2019/mp-n2_2_-socialnetworkapp/master/photo/profile.png)  
 
-![Share](https://raw.githubusercontent.com/mobiledev2019/mp-n2_2_-socialnetworkapp/master/photo/share.png)  
+![Danhsachban](https://raw.githubusercontent.com/mobiledev2019/mp-n2_2_-socialnetworkapp/master/photo/danhsachban.png)  
+
+![Timkiemban](https://raw.githubusercontent.com/mobiledev2019/mp-n2_2_-socialnetworkapp/master/photo/timkiemban.png)  
        
 
 2. Draft mô tả ứng dụng
